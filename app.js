@@ -11,6 +11,6 @@ app.get("/",function(req,res){
 	res.render("about")
 });
 
-app.listen(8999,function(){
-	console.log("Started!!");
+app.listen(port,function(){
+	console.log("Started 6e yaar!!");
 });
