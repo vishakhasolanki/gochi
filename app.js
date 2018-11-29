@@ -7,10 +7,10 @@ app.get("/",function(req,res){
 	res.render("home")
 });
 
-app.get("/",function(req,res){
+app.get("/about",function(req,res){
 	res.render("about")
 });
 
-app.listen(port,function(){
+app.listen(9999,function(){
 	console.log("Started 6e yaar!!");
 });
